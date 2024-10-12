@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -18,19 +18,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 2023 ChhoeTaigi台語辭典冊讀á
-email: 
+title: 台語文記憶 冊讀á
+email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Kán-kài
+  Tâi-gí-bûn Kì-ek Chheh-tha̍k-á
 baseurl: "/scannedImgViewer"
-url: "https://thak.taigi.info/"
+url: "https://kiek.taigi.info/"
 
 # navigation
 header_pages:
-        - index.md
-        - bokliok.md
-        - soatbeng.md
-        - chheh.md
+  - index.md
+  - soatbeng.md
 
 # Server Config options
 livereload: true
@@ -39,7 +37,7 @@ livereload: true
 markdown: kramdown
 kramdown:
   typographic_symbols:
-      ndash: --
+    ndash: --
 
 # Build settings
 theme: minima
@@ -47,9 +45,7 @@ plugins:
   - jekyll-feed
 
 # Google Analytics
-google_analytics: G-TZPBG7KKJE
-
-
+google_analytics: G-HSLRC68Y65
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
