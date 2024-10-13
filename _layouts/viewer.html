@@ -44,26 +44,33 @@
   </div>
 
   <footer class="viewer__footer">
-    <div class="viewer__page-controller-1">
-      <ul>
-        <li>
-          <button id="viewer-prev">
-            <img src="{{ site.baseurl }}/assets/images/icons/prev.svg" alt="prev page" />
-          </button>
-        </li>
-        <li>
-          <button id="viewer-next">
-            <img src="{{ site.baseurl }}/assets/images/icons/next.svg" alt="next page" />
-          </button>
-        </li>
-        <li>
-          <div id="current-page" class="viewer__page-controller-1__current-page"></div>
-        </li>
-      </ul>
-    </div>
-    <div class="viewer__page-controller-2">
-      去第<input type="number" id="goto-page" />頁，
-      <button id="goto-page__go">Hian 掀</button>
+    <div class="viewer__footer-rows">
+      <div class="viewer__footer-row1">
+        <div class="viewer__page-controller-1">
+          <ul>
+            <li>
+              <button id="viewer-prev">
+                <img src="{{ site.baseurl }}/assets/images/icons/prev.svg" alt="prev page" />
+              </button>
+            </li>
+            <li>
+              <button id="viewer-next">
+                <img src="{{ site.baseurl }}/assets/images/icons/next.svg" alt="next page" />
+              </button>
+            </li>
+            <li>
+              <div id="current-page" class="viewer__page-controller-1__current-page"></div>
+            </li>
+          </ul>
+        </div>
+        <div class="viewer__page-controller-2">
+          去第<input type="number" id="goto-page" />頁，
+          <button id="goto-page__go">Hian 掀</button>
+        </div>
+      </div>
+      <div class="viewer__footer-row2">
+          <a href="https://kiek.taigi.info/" target="_blank">台語文記憶。Tâi-gí-bûn Kì-ek</a>
+      </div>
     </div>
   </footer>
 </body>

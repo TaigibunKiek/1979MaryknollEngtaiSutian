@@ -75,6 +75,20 @@
       height: 64px;
     }
   }
+  &__footer-rows div {
+    display: flex;
+  }
+  &__footer-row1 div {
+    display: inline-box;
+  }
+  &__footer-row2 {
+    justify-content: center;
+    font-size: 18px;
+    a {
+      color: #ddd;
+      text-decoration: none;
+    }
+  }
   &__page-controller-1 {
     &__current-page {
       margin-left: 5px;
