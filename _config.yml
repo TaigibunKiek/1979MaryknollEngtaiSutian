@@ -27,8 +27,8 @@ url: "https://kiek.taigi.info/"
 
 # navigation
 header_pages:
-  - index.md
   - soatbeng.md
+  - index.md
 
 # Server Config options
 livereload: true
